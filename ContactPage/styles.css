@@ -1,0 +1,41 @@
+
+/*NAV BAR*/
+
+
+span img{
+    width: 4vh;
+    filter: opacity(50%);
+}
+
+
+nav{
+    background-color: #F7EDDF;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+}
+
+nav *{
+  font-family: "Comorant";
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav span{
+    color: #59796D;
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+    float: left;
+    padding: 10px 10px;
+}
+
+nav a{
+    float: right;
+    padding: 14px 2em;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #59796D;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Comorant');
+body {
+	/* background-color: rgb(243, 243, 243); */
+    /* background-color: rgb(21, 21, 51); */
+    background-color: #BEE3DB;
+}
+
+span img{
+    width: 4vh;
+    filter: opacity(50%);
+}
+
+.title {
+	font-family: "Comorant";
+	text-align: center;
+	color: #BEE3DB;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+	line-height:2
+}
+
+.button{
+	font-family: "Comorant";
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 5px;
+	line-height:2;
+    
+    color: #FFFFDD;
+    background-color: #59796D;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid;
+    margin: 1em;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 4vh;
+    text-transform: uppercase;
+    
+}
+
+/*
+a.button{
+    background-image: url(https://media.giphy.com/media/l4KhNBgG8RaItFkDS/giphy.gif);
+	background-size: cover;
+	color: transparent;
+    background-clip: text;
+	-webkit-background-clip: text;
+    border: solid;
+}*/
+
+h1{
+	background-image: url(https://media.giphy.com/media/G1T5M0qT6ZJlu/giphy.gif);
+    filter: sepia(50%);
+	background-size: cover;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	margin: 10px 0;
+}
+
+nav{
+    background-color: #F7EDDF;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+}
+
+nav *{
+  font-family: "Comorant";
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav span{
+    color: #59796D;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    float: left;
+    padding: 10px 10px;
+}
+
+nav a{
+    float: right;
+    padding: 14px 2em;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #59796D;
+}
